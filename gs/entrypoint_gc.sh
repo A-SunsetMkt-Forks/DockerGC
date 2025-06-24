@@ -180,6 +180,9 @@ elif echo "$version" | grep -F -w "5.5"; then
 elif echo "$version" | grep -F -w "5.6"; then
   version_res="5.0"
   # resmd5=""
+elif echo "$version" | grep -F -w "5.7"; then
+  version_res="5.0"
+  # resmd5=""
 fi
 
 echo "Runs with OS $OSVS"

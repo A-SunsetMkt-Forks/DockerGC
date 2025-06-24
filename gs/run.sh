@@ -70,6 +70,12 @@ if [ "$2" != "version_action" ]; then
     useBranchesRes="5.6"
     useShortProject="yuukips"
     useProject="GSServer-GC"
+  elif [ "$versioncontrol" = "30" ]; then # for private
+    mainProject="yuukigc"
+    useBranchesProject="5.7"
+    useBranchesRes="5.7"
+    useShortProject="yuukips"
+    useProject="GSServer-GC"
     userHub="registry.gitlab.com/yuukips"
   fi
 
